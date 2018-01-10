@@ -50,7 +50,7 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
-          <Heading size={1} textColor="primary" caps>
+          <Heading size={3} textColor="primary" caps>
             What do we want to achieve?
           </Heading>
         </Slide>
