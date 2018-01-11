@@ -44,7 +44,7 @@ export default class Presentation extends React.Component {
             A discussion for Healthgrades engineering
           </Text>
         </Slide>
-        <Slide>
+        <Slide bgColor="tertiary">
           <Heading size={5} caps>
             Software Testing
           </Heading>
@@ -66,7 +66,7 @@ export default class Presentation extends React.Component {
           <Heading size={5}>Testing Survey</Heading>
           <div>We Suck At Testing...</div>
         </Slide>
-        <Slide transition={['fade']}>
+        <Slide>
           <Heading size={3} caps>
             Goals...
           </Heading>
