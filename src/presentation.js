@@ -17,9 +17,9 @@ require('normalize.css');
 
 const theme = createTheme(
   {
-    primary: 'white',
+    primary: '#03A9FC',
     secondary: '#1F2022',
-    tertiary: '#03A9FC',
+    tertiary: 'white',
     quartenary: '#CECECE',
   },
   {
@@ -45,13 +45,30 @@ export default class Presentation extends React.Component {
           </Text>
         </Slide>
         <Slide>
-          <Heading size={2}>
-            Testing...
+          <Heading size={5} caps>
+            Software Testing
           </Heading>
+          <img src="../Test-Pyramid.png" width="75%" />
         </Slide>
-        <Slide transition={['fade']} bgColor="tertiary">
-          <Heading size={3} textColor="primary" caps>
-            What do we want to achieve?
+        <Slide>
+          <Heading size={3}>Unit Testing</Heading>
+        </Slide>
+        <Slide>
+          <Heading size={3}>Integration Testing</Heading>
+        </Slide>
+        <Slide>
+          <Heading size={3}>UI Testing</Heading>
+        </Slide>
+        <Slide>
+          <Heading size={3}>Manual Testing</Heading>
+        </Slide>
+        <Slide>
+          <Heading size={5}>Testing Survey</Heading>
+          <div>We Suck At Testing...</div>
+        </Slide>
+        <Slide transition={['fade']}>
+          <Heading size={3} caps>
+            Goals...
           </Heading>
         </Slide>
       </Deck>
