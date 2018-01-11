@@ -3,6 +3,7 @@ import React from 'react';
 
 // Import Spectacle Core tags
 import {
+  Appear,
   Deck,
   Heading,
   Slide,
@@ -44,11 +45,37 @@ export default class Presentation extends React.Component {
             A discussion for Healthgrades engineering
           </Text>
         </Slide>
+        <Slide>
+          <div>
+            <Heading size={5}>Testing Survey</Heading>
+            <Appear>
+              <p>We Suck At Testing...</p>
+            </Appear>
+            <Appear>
+              <p>We Suck At Testing...</p>
+            </Appear>
+            <Appear>
+              <p>We Suck At Testing...</p>
+            </Appear>
+            <Appear>
+              <p>We Suck At Testing...</p>
+            </Appear>
+            <Appear>
+              <p>We Suck At Testing...</p>
+            </Appear>
+            <Appear>
+              <p>We Suck At Testing...</p>
+            </Appear>
+            <Appear>
+              <p>We Suck At Testing...</p>
+            </Appear>
+          </div>
+        </Slide>
         <Slide bgColor="tertiary">
           <Heading size={5} caps>
             Software Testing
           </Heading>
-          <img src="../Test-Pyramid.png" width="75%" />
+          <img src="../Test-Pyramid.png" width="75%" alt="testing pyramid" />
         </Slide>
         <Slide>
           <Heading size={3}>Unit Testing</Heading>
@@ -61,10 +88,6 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <Heading size={3}>Manual Testing</Heading>
-        </Slide>
-        <Slide>
-          <Heading size={5}>Testing Survey</Heading>
-          <div>We Suck At Testing...</div>
         </Slide>
         <Slide>
           <Heading size={3} caps>
