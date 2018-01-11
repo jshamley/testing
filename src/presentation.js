@@ -49,19 +49,19 @@ export default class Presentation extends React.Component {
           <div>
             <Heading size={5}>Testing Survey</Heading>
             <Appear>
-              <p>Do more unit tests</p>
+              <Text>Do more unit tests</Text>
             </Appear>
             <Appear>
-              <p>Test more</p>
+              <Text>Test more</Text>
             </Appear>
             <Appear>
-              <p>Testing should be included in our Definition of Done</p>
+              <Text>Testing should be included in our Definition of Done</Text>
             </Appear>
             <Appear>
-              <p>We Suck At Testing</p>
+              <Text>We Suck At Testing</Text>
             </Appear>
             <Appear>
-              <p>YOU ARE A DREAMBOAT!</p>
+              <Text>YOU ARE A DREAMBOAT!</Text>
             </Appear>
           </div>
         </Slide>
