@@ -49,19 +49,19 @@ export default class Presentation extends React.Component {
           <div>
             <Heading size={5}>Testing Survey</Heading>
             <Appear>
-              <Text>Do more unit tests</Text>
+              <Text margin="30px 0 0" textSize={26}>Do more unit tests</Text>
             </Appear>
             <Appear>
-              <Text>Test more</Text>
+              <Text margin="10px 0 0" textSize={26}>Test more</Text>
             </Appear>
             <Appear>
-              <Text>Testing should be included in our Definition of Done</Text>
+              <Text margin="10px 0 0" textSize={26}>Testing should be included in our Definition of Done</Text>
             </Appear>
             <Appear>
-              <Text>We Suck At Testing</Text>
+              <Text margin="10px 0 0" textSize={26}>We Suck At Testing</Text>
             </Appear>
             <Appear>
-              <Text>YOU ARE A DREAMBOAT!</Text>
+              <Text margin="10px 0 0" textSize={26}>Standards would be helpful</Text>
             </Appear>
           </div>
         </Slide>
@@ -73,12 +73,27 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <Heading size={3}>Unit Testing</Heading>
+          <Appear>
+            <Text margin="30px 0 0">Jest, Jasmine, Karma, Mocha, Enzyme, Chai, Cheerio</Text>
+          </Appear>
+        </Slide>
+        <Slide>
+          <Heading size={3}>Snapshot Testing</Heading>
+          <Appear>
+            <Text margin="30px 0 0">Jest</Text>
+          </Appear>
         </Slide>
         <Slide>
           <Heading size={3}>Integration Testing</Heading>
+          <Appear>
+            <Text margin="30px 0 0">Selenium, Jenkins</Text>
+          </Appear>
         </Slide>
         <Slide>
-          <Heading size={3}>UI Testing</Heading>
+          <Heading size={3}>End-to-End Testing</Heading>
+          <Appear>
+            <Text margin="30px 0 0">Selenium, Jest, Jenkins, Enzyme, Jasmine</Text>
+          </Appear>
         </Slide>
         <Slide>
           <Heading size={3}>Manual Testing</Heading>
