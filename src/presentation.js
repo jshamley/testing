@@ -92,7 +92,7 @@ export default class Presentation extends React.Component {
         <Slide>
           <Heading size={3}>End-to-End Testing</Heading>
           <Appear>
-            <Text margin="30px 0 0">Selenium, Jest, Jenkins, Enzyme, Jasmine</Text>
+            <Text margin="30px 0 0">Selenium, Jenkins</Text>
           </Appear>
         </Slide>
         <Slide>
