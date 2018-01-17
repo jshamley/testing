@@ -100,7 +100,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide>
           <Heading size={3} caps>
-            Goals...
+            What are our goals?
           </Heading>
         </Slide>
       </Deck>
